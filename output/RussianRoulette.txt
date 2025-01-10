@@ -1,0 +1,145 @@
+$ ./2_zatia 3 3
+
+--- Sistemaren konfigurazioa ---
+CPU kopurua: 8
+----------------------------------
+
+Aukeratutako politika: 3CPU-aren haria sortzen... 
+Prozesu sortzailearen haria sortzen... 
+Tenporizadorearen haria sortzen... 
+Scheduler-aren haria sortzen... 
+Erlojuaren haria sortzen... 
+Scheduler: POLITIKA = 3
+Hari guztiak ondo sortu dira. 
+
+Clock tick 1
+
+Clock tick 2
+Prozesu-sortzailearen tenporizadorea hasi da 2. tick-ean. 
+Prozesu Sortzailea: Prozesua sortzen... PID = 0
+PCB { 
+         PID = 0
+         EGOERA = 0
+         TICK kopurua = 4
+         ticks left = 4
+         quantum left = 0
+}
+
+Clock tick 3
+Scheduler-aren tenporizadorea hasi da 3. tick-ean. 
+Scheduler Русская Рулетка: Prozesua CPU-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+Prozesua naiz. PID = 0
+
+Clock tick 4
+Prozesu-sortzailearen tenporizadorea hasi da 4. tick-ean.
+Prozesu Sortzailea: Prozesua sortzen... PID = 1
+PCB {
+         PID = 1
+         EGOERA = 0
+         TICK kopurua = 3
+         ticks left = 3
+         quantum left = 0
+}
+
+Clock tick 5
+
+Clock tick 6
+Prozesu-sortzailearen tenporizadorea hasi da 6. tick-ean.
+Scheduler-aren tenporizadorea hasi da 6. tick-ean. 
+Prozesu Sortzailea: Prozesua sortzen... PID = 2
+PCB {
+         PID = 2
+         EGOERA = 0
+         TICK kopurua = 1
+         ticks left = 1
+         quantum left = 0
+}
+Scheduler Русская Рулетка: Prozesua CPU-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+Prozesua naiz. PID = 0
+
+Clock tick 7
+
+Clock tick 8
+Prozesu-sortzailearen tenporizadorea hasi da 8. tick-ean. 
+
+Clock tick 9
+Scheduler-aren tenporizadorea hasi da 9. tick-ean. 
+Scheduler Русская Рулетка: Prozesua CPU-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+Prozesua naiz. PID = 0
+
+        PUM
+
+Scheduler: Процесс 0 закончен, (FINISHED)
+
+Clock tick 10
+Prozesu-sortzailearen tenporizadorea hasi da 10. tick-ean. 
+
+Clock tick 11
+
+Clock tick 12
+Prozesu-sortzailearen tenporizadorea hasi da 12. tick-ean. 
+Scheduler-aren tenporizadorea hasi da 12. tick-ean.
+Scheduler Русская Рулетка: Prozesua CPU-ari pasatzen... PID = 1
+
+CPU: PID = 1 duen prozesua exekutatzen...
+Prozesua naiz. PID = 1
+
+Clock tick 13
+
+Clock tick 14
+Prozesu-sortzailearen tenporizadorea hasi da 14. tick-ean.
+
+Clock tick 15
+Scheduler-aren tenporizadorea hasi da 15. tick-ean.
+Scheduler Русская Рулетка: Prozesua CPU-ari pasatzen... PID = 1
+
+CPU: PID = 1 duen prozesua exekutatzen...
+Prozesua naiz. PID = 1
+
+Clock tick 16
+Prozesu-sortzailearen tenporizadorea hasi da 16. tick-ean.
+
+Clock tick 17
+
+Clock tick 18
+Prozesu-sortzailearen tenporizadorea hasi da 18. tick-ean. 
+Scheduler-aren tenporizadorea hasi da 18. tick-ean.
+Scheduler Русская Рулетка: Prozesua CPU-ari pasatzen... PID = 1
+
+CPU: PID = 1 duen prozesua exekutatzen...
+Prozesua naiz. PID = 1
+Scheduler: Процесс 1 закончен, (FINISHED)
+
+Clock tick 19
+
+Clock tick 20
+Prozesu-sortzailearen tenporizadorea hasi da 20. tick-ean.
+
+Clock tick 21
+Scheduler-aren tenporizadorea hasi da 21. tick-ean. 
+Scheduler Русская Рулетка: Prozesua CPU-ari pasatzen... PID = 2
+
+CPU: PID = 2 duen prozesua exekutatzen...
+Prozesua naiz. PID = 2
+
+        PUM
+
+Scheduler: Процесс 2 закончен, (FINISHED)
+
+Clock tick 22
+Prozesu-sortzailearen tenporizadorea hasi da 22. tick-ean. 
+
+Clock tick 23
+
+Clock tick 24
+Prozesu-sortzailearen tenporizadorea hasi da 24. tick-ean.
+Scheduler-aren tenporizadorea hasi da 24. tick-ean.
+Scheduler: Cписок пуст.
+
+Clock tick 25

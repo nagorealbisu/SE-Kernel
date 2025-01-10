@@ -1,0 +1,194 @@
+$ ./2_zatia 3 2
+
+--- Sistemaren konfigurazioa ---
+CPU kopurua: 8
+----------------------------------
+
+Aukeratutako politika: 2CPU-aren haria sortzen... 
+Prozesu sortzailearen haria sortzen... 
+Tenporizadorearen haria sortzen... 
+Scheduler-aren haria sortzen... 
+Erlojuaren haria sortzen... 
+Scheduler: POLITIKA = 2
+Hari guztiak ondo sortu dira. 
+
+Clock tick 1
+
+Clock tick 2
+Prozesu-sortzailearen tenporizadorea hasi da 2. tick-ean. 
+Prozesu Sortzailea: Prozesua sortzen... PID = 0
+PCB { 
+         PID = 0
+         EGOERA = 0
+         TICK kopurua = 4
+         ticks left = 4
+         quantum left = 2
+}
+
+Clock tick 3
+Scheduler-aren tenporizadorea hasi da 3. tick-ean. 
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+Prozesua naiz. PID = 0
+
+Clock tick 4
+Prozesu-sortzailearen tenporizadorea hasi da 4. tick-ean. 
+Prozesu Sortzailea: Prozesua sortzen... PID = 1
+PCB {
+         PID = 1
+         EGOERA = 0
+         TICK kopurua = 2
+         ticks left = 2
+         quantum left = 2
+}
+
+Clock tick 5
+
+Clock tick 6
+Prozesu-sortzailearen tenporizadorea hasi da 6. tick-ean. 
+Scheduler-aren tenporizadorea hasi da 6. tick-ean.
+Prozesu Sortzailea: Prozesua sortzen... PID = 2
+PCB {
+         PID = 2
+         EGOERA = 0
+         TICK kopurua = 3
+         ticks left = 3
+         quantum left = 2
+}
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+Prozesua naiz. PID = 0
+
+Clock tick 7
+
+Clock tick 8
+Prozesu-sortzailearen tenporizadorea hasi da 8. tick-ean. 
+
+Clock tick 9
+Scheduler-aren tenporizadorea hasi da 9. tick-ean.
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 1
+
+CPU: PID = 1 duen prozesua exekutatzen...
+Prozesua naiz. PID = 1
+
+Clock tick 10
+Prozesu-sortzailearen tenporizadorea hasi da 10. tick-ean.
+
+Clock tick 11
+
+Clock tick 12
+Prozesu-sortzailearen tenporizadorea hasi da 12. tick-ean.
+Scheduler-aren tenporizadorea hasi da 12. tick-ean.
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 1
+
+CPU: PID = 1 duen prozesua exekutatzen...
+Prozesua naiz. PID = 1
+Scheduler: 1 prozesua amaitu da, FINISHED
+
+Clock tick 13
+
+Clock tick 14
+Prozesu-sortzailearen tenporizadorea hasi da 14. tick-ean. 
+
+Clock tick 15
+Scheduler-aren tenporizadorea hasi da 15. tick-ean. 
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 2
+
+CPU: PID = 2 duen prozesua exekutatzen...
+Prozesua naiz. PID = 2
+
+Clock tick 16
+Prozesu-sortzailearen tenporizadorea hasi da 16. tick-ean. 
+
+Clock tick 17
+
+Clock tick 18
+Prozesu-sortzailearen tenporizadorea hasi da 18. tick-ean. 
+Scheduler-aren tenporizadorea hasi da 18. tick-ean.
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 2
+
+CPU: PID = 2 duen prozesua exekutatzen...
+Prozesua naiz. PID = 2
+
+Clock tick 19
+
+Clock tick 20
+Prozesu-sortzailearen tenporizadorea hasi da 20. tick-ean.
+
+Clock tick 21
+Scheduler-aren tenporizadorea hasi da 21. tick-ean.
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+Prozesua naiz. PID = 0
+
+Clock tick 22
+Prozesu-sortzailearen tenporizadorea hasi da 22. tick-ean.
+
+Clock tick 23
+
+Clock tick 24
+Prozesu-sortzailearen tenporizadorea hasi da 24. tick-ean.
+Scheduler-aren tenporizadorea hasi da 24. tick-ean.
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+Prozesua naiz. PID = 0
+Scheduler: 0 prozesua amaitu da, FINISHED
+
+Clock tick 25
+
+Clock tick 26
+Prozesu-sortzailearen tenporizadorea hasi da 26. tick-ean.
+
+Clock tick 27
+Scheduler-aren tenporizadorea hasi da 27. tick-ean.
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 1
+
+CPU: PID = 1 duen prozesua exekutatzen...
+Prozesua naiz. PID = 1
+
+Clock tick 28
+Prozesu-sortzailearen tenporizadorea hasi da 28. tick-ean.
+
+Clock tick 29
+
+Clock tick 30
+Prozesu-sortzailearen tenporizadorea hasi da 30. tick-ean. 
+Scheduler-aren tenporizadorea hasi da 30. tick-ean.
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 1
+
+CPU: PID = 1 duen prozesua exekutatzen...
+Prozesua naiz. PID = 1
+Scheduler: 1 prozesua amaitu da, FINISHED
+
+Clock tick 31
+
+Clock tick 32
+Prozesu-sortzailearen tenporizadorea hasi da 32. tick-ean.
+
+Clock tick 33
+Scheduler-aren tenporizadorea hasi da 33. tick-ean.
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 2
+
+CPU: PID = 2 duen prozesua exekutatzen...
+Prozesua naiz. PID = 2
+Scheduler: 2 prozesua amaitu da, FINISHED
+
+Clock tick 34
+Prozesu-sortzailearen tenporizadorea hasi da 34. tick-ean.
+
+Clock tick 35
+
+Clock tick 36
+Prozesu-sortzailearen tenporizadorea hasi da 36. tick-ean. 
+Scheduler-aren tenporizadorea hasi da 36. tick-ean.
+Scheduler RR: Prozesua CPU-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+Prozesua naiz. PID = 0
+
+Clock tick 37
+^C
