@@ -1,0 +1,565 @@
+$ ./3_zatia prometheus/prog002.elf
+
+--- Sistemaren konfigurazioa ---
+CPU_thread kopurua: 8
+----------------------------------
+Memoria fisikoaren tamaina: 2097152
+Memoria fisikoaren edukia:
+Helbidea                Edukia
+=====================================
+0x000000        00000000
+0x000004        00000000
+0x000008        00000000
+0x00000C        00000000
+0x000010        00000000
+0x000014        00000000
+0x000018        00000000
+0x00001C        00000000
+0x000020        00000000
+0x000024        00000000
+0x000028        00000000
+0x00002C        00000000
+0x000030        00000000
+0x000034        00000000
+0x000038        00000000
+0x00003C        00000000
+0x000040        00000000
+0x000044        00000000
+0x000048        00000000
+0x00004C        00000000
+0x000050        00000000
+0x000054        00000000
+0x000058        00000000
+0x00005C        00000000
+0x000060        00000000
+0x000064        00000000
+0x000068        00000000
+0x00006C        00000000
+0x000070        00000000
+0x000074        00000000
+0x000078        00000000
+0x00007C        00000000
+=====================================
+0x000200        00000000
+0x000204        00000000
+0x000208        00000000
+0x00020C        00000000
+0x000210        00000000
+0x000214        00000000
+0x000218        00000000
+0x00021C        00000000
+0x000220        00000000
+0x000224        00000000
+0x000228        00000000
+0x00022C        00000000
+0x000230        00000000
+0x000234        00000000
+0x000238        00000000
+0x00023C        00000000
+0x000240        00000000
+0x000244        00000000
+0x000248        00000000
+0x00024C        00000000
+0x000250        00000000
+0x000254        00000000
+0x000258        00000000
+0x00025C        00000000
+0x000260        00000000
+0x000264        00000000
+0x000268        00000000
+0x00026C        00000000
+0x000270        00000000
+0x000274        00000000
+0x000278        00000000
+0x00027C        00000000
+=====================================
+CPU_thread-aren haria sortzen...
+Loader-aren haria sortzen...
+
+MMU-a ondo hasieratu da.
+Tenporizadorearen haria sortzen...
+Scheduler-aren haria sortzen...
+Erlojuaren haria sortzen...
+Hari guztiak ondo sortu dira.
+
+Clock tick 1
+DATA START: 9
+
+Programaren testuaren tamaina: 9
+Programaren datuen tamaina: 19
+Orriak hasieratzen...
+Programa memorian kargatzen...
+Memoria fisikoaren edukia:
+Helbidea                Edukia
+=====================================
+0x000000        09000034
+0x000004        0A000038
+0x000008        2B9A0000
+0x00000C        1B00003C
+0x000010        0600003C
+0x000014        07000040
+0x000018        28670000
+0x00001C        18000044
+0x000020        F0000000
+0x000024        00000045
+0x000028        FFFFFFDF
+0x00002C        FFFFFFF9
+0x000030        FFFFFF70
+0x000034        0000000B
+0x000038        FFFFFF62
+0x00003C        0000001D
+0x000040        FFFFFFE5
+0x000044        FFFFFF4D
+0x000048        FFFFFFAF
+0x00004C        FFFFFFF0
+0x000050        FFFFFFC1
+0x000054        000000C6
+0x000058        0000007C
+0x00005C        00000073
+0x000060        000000AA
+0x000064        FFFFFF45
+0x000068        0000007E
+0x00006C        FFFFFF93
+0x000070        00000000
+0x000074        00000000
+0x000078        00000000
+0x00007C        00000000
+=====================================
+0x000200        00000000
+0x000204        00000000
+0x000208        00000004
+0x00020C        00000008
+0x000210        0000000C
+0x000214        00000010
+0x000218        00000014
+0x00021C        00000018
+0x000220        0000001C
+0x000224        00000020
+0x000228        00000024
+0x00022C        00000028
+0x000230        0000002C
+0x000234        00000030
+0x000238        00000034
+0x00023C        00000038
+0x000240        0000003C
+0x000244        00000040
+0x000248        00000044
+0x00024C        00000048
+0x000250        0000004C
+0x000254        00000050
+0x000258        00000054
+0x00025C        00000058
+0x000260        0000005C
+0x000264        00000060
+0x000268        00000064
+0x00026C        00000068
+0x000270        0000006C
+0x000274        00000070
+0x000278        00000074
+0x00027C        00000078
+=====================================
+Loader: prometheus/prog002.elf programa ondo kargatu da. PID 0
+
+Clock tick 2
+Loader-aren tenporizadorea hasi da 2. tick-ean. 
+
+Clock tick 3
+Scheduler-aren tenporizadorea hasi da 3. tick-ean.
+Scheduler: Prozesua CPU_thread-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+HELBIDE BIRTUALA PC: 0 , PAGE_TABLE_HELB: 512
+HELBIDEA ITZULI: 09000034
+
+ MEMORIA BIRTUALAREN HELBIDEA: 00000000
+
+ MEMORIA FISIKOAREN HELBIDEA: 09000034
+
+        IR: 0x09000034
+PC: 0x0
+HELBIDEA ITZULI: 0000000B
+
+ MEMORIA BIRTUALAREN HELBIDEA: 00000034
+
+ MEMORIA FISIKOAREN HELBIDEA: 0000000B
+
+        ld
+
+Emaitza: 1PC: 0x4
+
+        Ticks left = 8
+Clock tick 4
+Loader-aren tenporizadorea hasi da 4. tick-ean.
+
+Clock tick 5
+
+Clock tick 6
+Loader-aren tenporizadorea hasi da 6. tick-ean. 
+Scheduler-aren tenporizadorea hasi da 6. tick-ean.
+Scheduler: Prozesua CPU_thread-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+HELBIDE BIRTUALA PC: 4 , PAGE_TABLE_HELB: 516
+HELBIDEA ITZULI: 0A000038
+
+ MEMORIA BIRTUALAREN HELBIDEA: 00000004
+
+ MEMORIA FISIKOAREN HELBIDEA: 0A000038
+
+        IR: 0x0A000038
+PC: 0x4
+HELBIDEA ITZULI: FFFFFF62
+
+ MEMORIA BIRTUALAREN HELBIDEA: 00000038
+
+ MEMORIA FISIKOAREN HELBIDEA: FFFFFF62
+
+        ld
+
+Emaitza: 1PC: 0x8
+
+        Ticks left = 7
+Clock tick 7
+
+Clock tick 8
+Loader-aren tenporizadorea hasi da 8. tick-ean. 
+
+Clock tick 9
+Scheduler-aren tenporizadorea hasi da 9. tick-ean.
+Scheduler: Prozesua CPU_thread-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+HELBIDE BIRTUALA PC: 8 , PAGE_TABLE_HELB: 520
+HELBIDEA ITZULI: 2B9A0000
+
+ MEMORIA BIRTUALAREN HELBIDEA: 00000008
+
+ MEMORIA FISIKOAREN HELBIDEA: 2B9A0000
+
+        IR: 0x2B9A0000
+PC: 0x8
+R1: 0, R2: 11, R3: -158
+
+        add
+
+Emaitza: 1PC: 0xC
+
+        Ticks left = 6
+Clock tick 10
+Loader-aren tenporizadorea hasi da 10. tick-ean.
+
+Clock tick 11
+
+Clock tick 12
+Loader-aren tenporizadorea hasi da 12. tick-ean. 
+Scheduler-aren tenporizadorea hasi da 12. tick-ean.
+Scheduler: Prozesua CPU_thread-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+HELBIDE BIRTUALA PC: 12 , PAGE_TABLE_HELB: 524
+HELBIDEA ITZULI: 1B00003C
+
+ MEMORIA BIRTUALAREN HELBIDEA: 0000000C
+
+ MEMORIA FISIKOAREN HELBIDEA: 1B00003C
+
+        IR: 0x1B00003C
+PC: 0xC
+HELBIDEA ITZULI: 0000001D
+Helbide fisikoan idazten: 0000001D, birtuala: 0000003C: FFFFFF6D
+
+        store
+
+Memoria fisikoaren edukia:
+Helbidea                Edukia
+=====================================
+0x000000        09000034
+0x000004        0A000038
+0x000008        2B9A0000
+0x00000C        1B00003C
+0x000010        0600003C
+0x000014        07000040
+0x000018        28670000
+0x00001C        18000044
+0x000020        F0000000
+0x000024        00000045
+0x000028        FFFFFFDF
+0x00002C        FFFFFFF9
+0x000030        FFFFFF70
+0x000034        0000000B
+0x000038        FFFFFF62
+0x00003C        FFFFFF6D
+0x000040        FFFFFFE5
+0x000044        FFFFFF4D
+0x000048        FFFFFFAF
+0x00004C        FFFFFFF0
+0x000050        FFFFFFC1
+0x000054        000000C6
+0x000058        0000007C
+0x00005C        00000073
+0x000060        000000AA
+0x000064        FFFFFF45
+0x000068        0000007E
+0x00006C        FFFFFF93
+0x000070        00000000
+0x000074        00000000
+0x000078        00000000
+0x00007C        00000000
+=====================================
+0x000200        00000000
+0x000204        00000000
+0x000208        00000004
+0x00020C        00000008
+0x000210        0000000C
+0x000214        00000010
+0x000218        00000014
+0x00021C        00000018
+0x000220        0000001C
+0x000224        00000020
+0x000228        00000024
+0x00022C        00000028
+0x000230        0000002C
+0x000234        00000030
+0x000238        00000034
+0x00023C        00000038
+0x000240        0000003C
+0x000244        00000040
+0x000248        00000044
+0x00024C        00000048
+0x000250        0000004C
+0x000254        00000050
+0x000258        00000054
+0x00025C        00000058
+0x000260        0000005C
+0x000264        00000060
+0x000268        00000064
+0x00026C        00000068
+0x000270        0000006C
+0x000274        00000070
+0x000278        00000074
+0x00027C        00000078
+=====================================
+Emaitza: 1PC: 0x10
+
+        Ticks left = 5
+Clock tick 13
+
+Clock tick 14
+Loader-aren tenporizadorea hasi da 14. tick-ean.
+
+Clock tick 15
+Scheduler-aren tenporizadorea hasi da 15. tick-ean. 
+Scheduler: Prozesua CPU_thread-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+HELBIDE BIRTUALA PC: 16 , PAGE_TABLE_HELB: 528
+HELBIDEA ITZULI: 0600003C
+
+ MEMORIA BIRTUALAREN HELBIDEA: 00000010
+
+ MEMORIA FISIKOAREN HELBIDEA: 0600003C
+
+        IR: 0x0600003C
+PC: 0x10
+HELBIDEA ITZULI: FFFFFF6D
+
+ MEMORIA BIRTUALAREN HELBIDEA: 0000003C
+
+ MEMORIA FISIKOAREN HELBIDEA: FFFFFF6D
+
+        ld
+
+Emaitza: 1PC: 0x14
+
+        Ticks left = 4
+Clock tick 16
+Loader-aren tenporizadorea hasi da 16. tick-ean.
+
+Clock tick 17
+
+Clock tick 18
+Loader-aren tenporizadorea hasi da 18. tick-ean.
+Scheduler-aren tenporizadorea hasi da 18. tick-ean.
+Scheduler: Prozesua CPU_thread-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+HELBIDE BIRTUALA PC: 20 , PAGE_TABLE_HELB: 532
+HELBIDEA ITZULI: 07000040
+
+ MEMORIA BIRTUALAREN HELBIDEA: 00000014
+
+ MEMORIA FISIKOAREN HELBIDEA: 07000040
+
+        IR: 0x07000040
+PC: 0x14
+HELBIDEA ITZULI: FFFFFFE5
+
+ MEMORIA BIRTUALAREN HELBIDEA: 00000040
+
+ MEMORIA FISIKOAREN HELBIDEA: FFFFFFE5
+
+        ld
+
+Emaitza: 1PC: 0x18
+
+        Ticks left = 3
+Clock tick 19
+
+Clock tick 20
+Loader-aren tenporizadorea hasi da 20. tick-ean. 
+
+Clock tick 21
+Scheduler-aren tenporizadorea hasi da 21. tick-ean.
+Scheduler: Prozesua CPU_thread-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+HELBIDE BIRTUALA PC: 24 , PAGE_TABLE_HELB: 536
+HELBIDEA ITZULI: 28670000
+
+ MEMORIA BIRTUALAREN HELBIDEA: 00000018
+
+ MEMORIA FISIKOAREN HELBIDEA: 28670000
+
+        IR: 0x28670000
+PC: 0x18
+R1: 0, R2: -147, R3: -27
+
+        add
+
+Emaitza: 1PC: 0x1C
+
+        Ticks left = 2
+Clock tick 22
+Loader-aren tenporizadorea hasi da 22. tick-ean.
+
+Clock tick 23
+
+Clock tick 24
+Loader-aren tenporizadorea hasi da 24. tick-ean. 
+Scheduler-aren tenporizadorea hasi da 24. tick-ean.
+Scheduler: Prozesua CPU_thread-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+HELBIDE BIRTUALA PC: 28 , PAGE_TABLE_HELB: 540
+HELBIDEA ITZULI: 18000044
+
+ MEMORIA BIRTUALAREN HELBIDEA: 0000001C
+
+ MEMORIA FISIKOAREN HELBIDEA: 18000044
+
+        IR: 0x18000044
+PC: 0x1C
+HELBIDEA ITZULI: FFFFFF4D
+Helbide fisikoan idazten: FFFFFF4D, birtuala: 00000044: FFFFFF52
+
+        store
+
+Memoria fisikoaren edukia:
+Helbidea                Edukia
+=====================================
+0x000000        09000034
+0x000004        0A000038
+0x000008        2B9A0000
+0x00000C        1B00003C
+0x000010        0600003C
+0x000014        07000040
+0x000018        28670000
+0x00001C        18000044
+0x000020        F0000000
+0x000024        00000045
+0x000028        FFFFFFDF
+0x00002C        FFFFFFF9
+0x000030        FFFFFF70
+0x000034        0000000B
+0x000038        FFFFFF62
+0x00003C        FFFFFF6D
+0x000040        FFFFFFE5
+0x000044        FFFFFF52
+0x000048        FFFFFFAF
+0x00004C        FFFFFFF0
+0x000050        FFFFFFC1
+0x000054        000000C6
+0x000058        0000007C
+0x00005C        00000073
+0x000060        000000AA
+0x000064        FFFFFF45
+0x000068        0000007E
+0x00006C        FFFFFF93
+0x000070        00000000
+0x000074        00000000
+0x000078        00000000
+0x00007C        00000000
+=====================================
+0x000200        00000000
+0x000204        00000000
+0x000208        00000004
+0x00020C        00000008
+0x000210        0000000C
+0x000214        00000010
+0x000218        00000014
+0x00021C        00000018
+0x000220        0000001C
+0x000224        00000020
+0x000228        00000024
+0x00022C        00000028
+0x000230        0000002C
+0x000234        00000030
+0x000238        00000034
+0x00023C        00000038
+0x000240        0000003C
+0x000244        00000040
+0x000248        00000044
+0x00024C        00000048
+0x000250        0000004C
+0x000254        00000050
+0x000258        00000054
+0x00025C        00000058
+0x000260        0000005C
+0x000264        00000060
+0x000268        00000064
+0x00026C        00000068
+0x000270        0000006C
+0x000274        00000070
+0x000278        00000074
+0x00027C        00000078
+=====================================
+Emaitza: 1PC: 0x20
+
+        Ticks left = 1
+Clock tick 25
+
+Clock tick 26
+Loader-aren tenporizadorea hasi da 26. tick-ean. 
+
+Clock tick 27
+Scheduler-aren tenporizadorea hasi da 27. tick-ean.
+Scheduler: Prozesua CPU_thread-ari pasatzen... PID = 0
+
+CPU: PID = 0 duen prozesua exekutatzen...
+HELBIDE BIRTUALA PC: 32 , PAGE_TABLE_HELB: 544
+HELBIDEA ITZULI: F0000000
+
+ MEMORIA BIRTUALAREN HELBIDEA: 00000020
+
+ MEMORIA FISIKOAREN HELBIDEA: F0000000
+
+        IR: 0xF0000000
+PC: 0x20
+
+        exit
+
+Emaitza: 0PC: 0x24
+
+        Ticks left = 0
+Scheduler: Prozesua amaitu egin da.
+
+Clock tick 28
+Loader-aren tenporizadorea hasi da 28. tick-ean.
+
+Clock tick 29
+
+Clock tick 30
+Loader-aren tenporizadorea hasi da 30. tick-ean.
+Scheduler-aren tenporizadorea hasi da 30. tick-ean.
+Scheduler: Ilara hutsik dago.
+^C
