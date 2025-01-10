@@ -166,7 +166,6 @@ void *scheduler(void *param) {
     printf("Scheduler: POLITIKA = %d\n", *politika);
     if(*politika == FCFS){
         while (1) {
-            printf("\nFUCK\n"); fflush(stdout);
             pthread_cond_wait(&cond_scheduler, &mutex_sched);
 
             pthread_mutex_lock(&mutex_prozesuen_ilara);
